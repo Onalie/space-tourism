@@ -1,87 +1,195 @@
-# ORBIT/IMPACT — World-Class V6
+# ORBIT/IMPACT  
+## Space Tourism & Environmental Impacts
 
-A full redesign focused on editorial storytelling, scientific information design and one signature interaction rather than decorative sci-fi effects.
+ORBIT/IMPACT is an interactive science communication website exploring the environmental consequences of commercial space tourism.
 
-## Signature creative feature
+The project examines how increasing rocket activity may affect Earth's atmosphere through three major environmental pressures:
+
+- Carbon and rocket exhaust emissions
+- Stratospheric ozone depletion
+- Black carbon and global warming
+
+Rather than presenting the topic as a traditional report, the website uses editorial design, scientific imagery, interactive data storytelling, scroll-based experiences, and research-backed statistics to make the environmental impacts easier to understand.
+
+---
+
+## Live Website
+
+The published website can be viewed here:
+
+**https://YOUR-USERNAME.github.io/space-tourism/**
+
+> Replace `YOUR-USERNAME` with your GitHub username after GitHub Pages has been successfully deployed.
+
+---
+
+## About the Project
+
+Commercial space tourism is moving from experimental travel toward a growing private industry.
+
+Although the number of passengers is currently small, rocket launches can have environmental effects that are very different from ordinary transportation because emissions are released directly into the upper atmosphere and stratosphere.
+
+ORBIT/IMPACT explores this through three connected topics.
+
+### Carbon & Rocket Exhaust
+
+This section examines:
+
+- Carbon emissions produced by rocket launches
+- The environmental cost of propellant production
+- Differences between rocket fuels
+- Emissions per passenger compared with commercial aviation
+- High-altitude release of rocket exhaust
+
+Recent research suggests that suborbital tourism can produce an extremely high level of CO₂ emissions per passenger-hour compared with conventional aviation.
+
+---
+
+### Stratospheric Ozone Depletion
+
+This section explores how rocket emissions may affect the ozone layer.
+
+Topics include:
+
+- Rocket exhaust entering the stratosphere
+- Long atmospheric residence times
+- Chlorine-containing compounds
+- Alumina particles
+- Black carbon
+- Atmospheric chemistry
+- Future launch-growth scenarios
+- Ongoing global ozone recovery
+
+The website also considers why increasing launch frequency could introduce new environmental pressures while the ozone layer is still recovering.
+
+---
+
+### Black Carbon & Global Warming
+
+Rocket engines can release black carbon particles, commonly known as soot.
+
+At high altitudes these particles may remain in the atmosphere significantly longer than black carbon released near the Earth's surface.
+
+The website examines:
+
+- Solar radiation absorption
+- Stratospheric heating
+- Radiative forcing
+- Atmospheric circulation
+- Differences between surface-level and high-altitude black carbon
+- Possible climate impacts from future launch growth
+
+---
+
+## Interactive Feature
+
 ### Atmospheric Flight Recorder
-A scroll-driven interactive section on the Home page follows the environmental journey of a launch through four stages:
-1. Launch footprint — 50–100×
-2. Stratospheric release — ≈⅔
-3. Persistence — up to 4 years
-4. Climate leverage — ≈500×
 
-The feature uses actual figures from the supplied essay. It is UI/information design, not an AI-generated diagram.
+The homepage includes an interactive scroll-based feature called the **Atmospheric Flight Recorder**.
 
-## Design direction
-- V3-style Arial/Helvetica + Georgia typography
-- Topic-based navigation
-- Strong 12-column editorial grid
-- Asymmetric chapter cards
-- Real NASA / scientific imagery
-- Smooth reveal and mask animations
-- Sticky research storytelling
-- Large typographic data moments
-- Impact comparison matrix on Summary
-- Accessible reduced-motion fallback
-- Mobile-first fallbacks for sticky/interactive sections
+As the visitor scrolls through the experience, the interface follows the environmental effects of rocket activity through several stages:
 
-## Content
-The environmental facts and statistics are derived from the supplied essay. Image citations and the user's complete bibliography are preserved.
+1. Emission intensity
+2. Launch growth
+3. Stratospheric ozone impacts
+4. Black carbon and climate forcing
 
-## Run
-Open `index.html` or use VS Code + Live Server.
-External NASA imagery requires internet access.
-The project infographic is bundled locally.
+The feature uses research-backed statistics to turn scientific findings into an interactive visual narrative.
 
+---
 
-## V7 Typography refinement
-The visual system now deliberately separates four typographic jobs:
-- Helvetica/Arial: large display headlines only
-- Geist Sans: body copy, navigation and interface text
-- Georgia: editorial statements and pull quotes
-- Geist Mono: technical metadata and scientific labels
+## Website Features
 
-The pass also standardizes body sizing, line-height, text measure, tracking, reference formatting, numeric alignment and mobile reading rhythm. Geist is loaded from Google Fonts with system fallbacks, so the layout remains usable if the font service is unavailable.
+- Responsive desktop, tablet, and mobile design
+- Interactive scroll-based storytelling
+- Atmospheric Flight Recorder
+- Scientific data visualisation through typography
+- Smooth scrolling and reveal animations
+- Sticky research sections
+- Large editorial photography
+- Research statistics
+- Image citations
+- Academic references
+- Mobile navigation
+- Reduced-motion accessibility support
+- Original environmental infographic
+- Real NASA and scientific imagery
 
+---
 
-## Requested V7 formatting fixes
-This build stays on the V7 typography/design base. Only the requested layout and heading corrections were applied:
-- wider Takeaway heading column
-- reduced/tuned Takeaway heading size and tracking
-- corrected "The scale behind the argument" grid and heading size
-- wider Summary closing-image heading column
-- corrected "What this means together" grid and heading wrapping
-- mobile/tablet single-column safeguards for those sections
+## Design Approach
 
+The website follows a modern editorial and scientific design direction rather than a traditional academic website layout.
 
-## Research-expanded content revision
-Visible copy no longer repeatedly refers to "the essay." The website now reads as an independent research experience.
+The visual system combines:
 
-Additional/updated scientific content was integrated from:
-- Huang & Xu (2025), PLOS ONE — suborbital CO2 intensity, 85–226 t/trip, 400–1,000× passenger-hour intensity, and future emissions scenarios.
-- Revell et al. (2025), npj Climate and Atmospheric Science — launch-growth scenarios and ozone-recovery impacts.
-- Ryan et al. (2022), Earth's Future — black-carbon radiative forcing and ~500× warming efficiency.
-- Maloney et al. (2022), JGR Atmospheres — future black-carbon scenario effects on stratospheric temperature, circulation and ozone.
-- WMO/UNEP Scientific Assessment of Ozone Depletion (2022) — global/Arctic/Antarctic recovery timelines.
+- Large editorial typography
+- Minimal interface elements
+- Strong grid-based layouts
+- Scientific imagery
+- Generous whitespace
+- Data-focused storytelling
+- Controlled animation
+- High contrast
+- Topic-specific accent colours
 
-The Summary bibliography was expanded accordingly. Aspect pages still avoid conventional in-text citations to remain consistent with the original website brief.
+### Colour System
 
+The three environmental topics have their own visual identity:
 
-## Modern editorial type update
-The decorative serif/italic emphasis used in the interface has been replaced by Manrope. Headings remain in the existing display system, body copy remains Geist, and technical labels remain Geist Mono. Manrope is now used only for major supporting statements, lead copy and emphasized headline phrases. Italics are retained only inside academic/image citations where they are typographically appropriate.
+- **Cyan** — Carbon & Rocket Exhaust
+- **Purple** — Stratospheric Ozone Depletion
+- **Orange** — Black Carbon & Global Warming
 
+---
 
-## Final formatting audit
-The full V7 site was optically recalibrated after reviewing the hero, topic pages, data sections, research story, takeaways, summary and responsive layouts.
+## Typography
 
-Key changes:
-- tightened the Manrope hero subheading ("Not leaving a light footprint")
-- reduced excessive display tracking without crushing letters
-- normalized desktop section spacing and grid gaps
-- improved lead-copy widths and paragraph rhythm
-- reduced oversized data/research headings
-- tightened data cards and research blocks
-- balanced topic hero sizing, including the long Ozone title
-- corrected takeaway, conclusion and summary-image proportions
-- reduced citation/reference spacing
-- recalibrated tablet and mobile spacing independently
+The website uses a small typography system where each typeface has a specific purpose.
+
+### Display Typography
+
+Large headings use:
+
+- Arial
+- Helvetica Neue
+- Helvetica
+
+These provide strong, clean editorial headlines.
+
+### Body Typography
+
+Body content uses:
+
+- Geist Sans
+
+Geist provides a modern, highly readable interface and editorial typeface.
+
+### Editorial Emphasis
+
+Selected lead statements use:
+
+- Manrope
+
+This creates visual contrast while maintaining a clean and professional appearance.
+
+### Technical Labels
+
+Scientific labels and metadata use:
+
+- Geist Mono
+
+---
+
+## Technologies Used
+
+The project was created from scratch using:
+
+- HTML5
+- CSS3
+- JavaScript
+- Google Fonts
+- GitHub
+- GitHub Pages
+
+No frontend frameworks or website builders were used.
